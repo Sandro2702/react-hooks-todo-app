@@ -5,7 +5,7 @@ import React from 'react';
 const TodosContext = React.createContext({
 	todos       : [
 		{ id: 1, text: 'Do work', complete: true },
-		{ id: 1, text: 'Have a rest', complete: false }
+		{ id: 2, text: 'Have a rest', complete: false }
 	],
 
 	currentTodo : {}
